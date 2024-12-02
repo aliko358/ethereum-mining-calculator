@@ -107,11 +107,11 @@
           </div>
         </form>
         <p class="text-muted">
-          *Calculate how much Ether (ETH) <b>should</b> be mined with a specific hashrate.
+          *Nə qədər Eter (ETH) hesablayın <b>gərək</b> be mined with a specific hashrate.
         </p>
       </div>
       <div class="col-lg-6">
-        <h2>Earnings (ETH)</h2>
+        <h2>Gəlirlər (ETH)</h2>
 
         <table class="table table-striped">
           <thead>
@@ -123,32 +123,32 @@
           </thead>
           <tbody>
             <tr>
-              <td>Minute</td>
+              <td>Dəqiqə</td>
               <td ng-bind="earnings.min | number:6"></td>
               <td ng-bind="earnings.min*ethPrice | currency"></td>
             </tr>
             <tr>
-              <td>Hour</td>
+              <td>Saat</td>
               <td ng-bind="earnings.hour | number:6"></td>
               <td ng-bind="earnings.hour*ethPrice | currency"></td>
             </tr>
             <tr>
-              <td>Day</td>
+              <td>Gün</td>
               <td ng-bind="earnings.day | number:6"></td>
               <td ng-bind="earnings.day*ethPrice | currency"></td>
             </tr>
             <tr>
-              <td>Week</td>
+              <td>Həftə</td>
               <td ng-bind="earnings.week | number:6"></td>
               <td ng-bind="earnings.week*ethPrice | currency"></td>
             </tr>
             <tr>
-              <td>Month</td>
+              <td>Ay</td>
               <td ng-bind="earnings.month | number:6"></td>
               <td ng-bind="earnings.month*ethPrice | currency"></td>
             </tr>
             <tr>
-              <td>Year</td>
+              <td>İl</td>
               <td ng-bind="earnings.year | number:6"></td>
               <td ng-bind="earnings.year*ethPrice | currency"></td>
             </tr>
